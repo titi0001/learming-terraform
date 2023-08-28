@@ -11,3 +11,8 @@
 ## Iniciar o Terraform
 `terraform init`  
 
+## Comandos Básicos
+`terraform init --upgrade`  
+`terraform plan -out plan.tf`  
+`terraform apply "plan.tf"`  
+`terraform destroy`
